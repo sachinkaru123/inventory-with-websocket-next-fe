@@ -1,0 +1,25 @@
+{
+  "name": "inventory-fe-websocket",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3000 --turbopack",
+    "build": "next build",
+    "start": "next start --port 3000",
+    "lint": "next lint",
+    "demo-server": "node demo-server.js"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
